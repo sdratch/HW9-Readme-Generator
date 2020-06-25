@@ -1,4 +1,5 @@
-const inquirer = require("inquirer");
+const generatemd = require("./generateMarkdown")
+const fr = require("fs");
 
 // array of questions for user
 const questions = [
@@ -14,7 +15,15 @@ const questions = [
 ];
 
 // function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+
+fr.writeFile(fileName,generatemd(data),function(err){
+    if(err){
+        throw err
+    }
+    console.log("Sucessfully Created File")
+})
+}
 
 // function to initialize program
 function init() {
@@ -56,10 +65,10 @@ function init() {
         message: questions[6],
         name: "licences",
         choices:[
-            "MIT",
-            "GNU GPLv3",
-            "Apache License 2.0",
-            "ISC License"
+            "mit",
+            "gpl-3.0",
+            "apache-2.0",
+            "isc",
         ]
       },
       {
@@ -74,7 +83,7 @@ function init() {
       },
     ])
     .then(function (response) {
-      console.log(response);
+        writeToFile("README.md",response);
     });
 }
 
