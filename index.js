@@ -74,7 +74,7 @@ function init() {
       },
     ])
     .then(function (response) {
-        generatemd(response)
+        console.log(generatemd(response))
 
     });
 }
