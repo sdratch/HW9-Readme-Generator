@@ -1,4 +1,4 @@
-const inquirer = require("inquirer");
+const generatemd = require("./generateMarkdown")
 
 // array of questions for user
 const questions = [
@@ -56,10 +56,10 @@ function init() {
         message: questions[6],
         name: "licences",
         choices:[
-            "MIT",
-            "GNU GPLv3",
-            "Apache License 2.0",
-            "ISC License"
+            "mit",
+            "gpl-3.0",
+            "apache-2.0",
+            "isc",
         ]
       },
       {
@@ -74,7 +74,8 @@ function init() {
       },
     ])
     .then(function (response) {
-      console.log(response);
+        generatemd(response)
+
     });
 }
 
