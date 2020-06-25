@@ -1,11 +1,9 @@
 const moment = require("moment");
 const fr = require("fs");
 
-let fullLicense;
 // function to generate markdown for README
 function generateMarkdown(data) {
-  const fullLicense = addLicense(data.licences,data.title,data.username);
-  console.log(fullLicense)
+  addLicense(data.licences,data.title,data.username);
   return `# ${data.title}
 
 ## Description:
@@ -20,16 +18,18 @@ function generateMarkdown(data) {
   * [Questions](https://github.com/${data.username}/${data.title}#Questions)
 
 ## Installation
+  Here are the installation guides
   ${data.install}
 
 ## Usage
+  Here are some common examples
   ${data.usage}
 
 ## License
-  ${fullLicense}
+  This project is licensed under the ${data.license} License. - see the [License.md](https://github.com/${data.username}/${data.title}/blob/master/LICENSE.md) file for details
 
 ## Contributing
-  ${data.contribution}
+  Thanks ${data.contribution} for the contributions to the porgram
 
 ## Tests
   ${data.test}
@@ -43,7 +43,6 @@ function generateMarkdown(data) {
 function addLicense(license,title,name) {
   
   let filename;
-  console.log(license);
   switch (license) {
     case "mit":
       filename = "MIT_LICENSE.txt";
@@ -63,7 +62,11 @@ function addLicense(license,title,name) {
   text = text.replace("[year]",moment().format("YYYY"))
   text = text.replace("[name]",name);
   text = text.replace("[title]",title)
-  return text;
+  fr.writeFile("LICENSE.md",text,function(err){
+    if(err){
+      throw err;
+    }
+  })
 }
 
 

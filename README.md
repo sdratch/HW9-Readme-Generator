@@ -1,44 +1,32 @@
-# asdf
+# sadf
 
 ## Description:
    asdf
 
 ## Table of contents:
-  * [Installation](https://github.com/asdf/asdf#Installation)
-  * [Usage](https://github.com/asdf/asdf#Usage)
-  * [License](https://github.com/asdf/asdf#license)
-  * [Contributing](https://github.com/asdf/asdf#Contributing)
-  * [Tests](https://github.com/asdf/asdf#Tests)
-  * [Questions](https://github.com/asdf/asdf#Questions)
+  * [Installation](https://github.com/asdf/sadf#Installation)
+  * [Usage](https://github.com/asdf/sadf#Usage)
+  * [License](https://github.com/asdf/sadf#license)
+  * [Contributing](https://github.com/asdf/sadf#Contributing)
+  * [Tests](https://github.com/asdf/sadf#Tests)
+  * [Questions](https://github.com/asdf/sadf#Questions)
 
 ## Installation
-  sadf
-
-## Usage
-  sadf
-
-## License
-  ISC License
-
-Copyright (c) 2020, asdf
-
-Permission to use, copy, modify, and/or distribute this software for any
-purpose with or without fee is hereby granted, provided that the above
-copyright notice and this permission notice appear in all copies.
-
-THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
-WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
-MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
-ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
-WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
-ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
-OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
-
-## Contributing
+  Here are the installation guides
   asdf
 
+## Usage
+  Here are some common examples
+  asdf
+
+## License
+  This project is licensed under the undefined License. - see the [License.md](https://github.com/asdf/sadf/blob/master/LICENSE.md) file for details
+
+## Contributing
+  Thanks asdf for the contributions to the porgram
+
 ## Tests
-  sadf
+  asdf
 
 ## Questions
   If you have any questions feel free to contact me by either:
