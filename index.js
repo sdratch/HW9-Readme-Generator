@@ -1,4 +1,5 @@
 const generatemd = require("./generateMarkdown")
+const fr = require("fs");
 
 // array of questions for user
 const questions = [
@@ -14,7 +15,15 @@ const questions = [
 ];
 
 // function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+
+fr.writeFile(fileName,generatemd(data),function(err){
+    if(err){
+        throw err
+    }
+    console.log("Sucessfully Created File")
+})
+}
 
 // function to initialize program
 function init() {
@@ -74,8 +83,7 @@ function init() {
       },
     ])
     .then(function (response) {
-        console.log(generatemd(response))
-
+        writeToFile("READMETEST.md",response);
     });
 }
 
