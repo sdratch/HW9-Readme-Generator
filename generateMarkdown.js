@@ -25,7 +25,7 @@ function generateMarkdown(data) {
   ${data.usage}
 
 ## License
-  This project is licensed under the ${data.license} License. - see the [License.md](https://github.com/${data.username}/${data.title}/blob/master/LICENSE.md) file for details
+  This project is licensed under the ${data.licences} License. - see the [License.md](https://github.com/${data.username}/${data.title}/blob/master/LICENSE.md) file for details
 
 ## Contributing
   ${data.contribution}
