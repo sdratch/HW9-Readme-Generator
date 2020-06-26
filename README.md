@@ -1,32 +1,28 @@
 # hw9-readme-generator
-[![made-with-README](https://img.shields.io/badge/Made%20With-README%20Generator-blue)](https://www.github.com/sdratch/HW9-Readme-Generator)
 
 ## Description:
-   example description
+   This program is made to use node.js to create a readme.md file using user input from the inquierer package.
+   The user is prompted for input and then is displayed in the appropriate section
+   The sections include: 
+   
+  * Title
+  * Description
+  * Table of contents
+  * Installation
+  * Usage
+  * license
+  * Contributing
+  * Tests
+  * Questions
 
-## Table of contents:
-  * [Installation](https://github.com/sdratch/hw9-readme-generator#Installation)
-  * [Usage](https://github.com/sdratch/hw9-readme-generator#Usage)
-  * [License](https://github.com/sdratch/hw9-readme-generator#license)
-  * [Contributing](https://github.com/sdratch/hw9-readme-generator#Contributing)
-  * [Tests](https://github.com/sdratch/hw9-readme-generator#Tests)
-  * [Questions](https://github.com/sdratch/hw9-readme-generator#Questions)
+  The License section will generate a License.md with information of the selected license and will link to the license.md file from the README.md
+  
 
-## Installation
-  example
+## Examples
+  ![video of the code](./assets/hw9example.mp4)
+  ![Resulting Image 1](./assets/result1.png)
+  ![Resulting Image 2](./assets/result2.png)
 
-## Usage
-  example
 
-## License
-  This project is licensed under the undefined License. - see the [License.md](https://github.com/sdratch/hw9-readme-generator/blob/master/LICENSE.md) file for details
 
-## Contributing
-  none
-## Tests
-  example
-
-## Questions
-  If you have any questions feel free to contact me by either:
-  * Email Address: [example@example.com](example@example.com)
-  * Github Profile: [https://github.com/sdratch](https://github.com/sdratch)
+Github Repo: [https://github.com/sdratch/HW9-Readme-Generator](https://github.com/sdratch/HW9-Readme-Generator)
