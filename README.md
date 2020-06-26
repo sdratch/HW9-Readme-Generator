@@ -1,32 +1,35 @@
-# HW9-Readme-Generator
+# HW9-Readme
+[![made-with-README](https://img.shields.io/badge/Made%20With-README%20Generator-blue)](https://www.github.com/sdratch/HW9-Readme-Generator)
 
 ## Description:
-   This is a test project decription
+   Example description
 
 ## Table of contents:
-  * [Installation](https://github.com/sdratch/HW9-Readme-Generator#Intallation)
-  * [Usage](https://github.com/sdratch/HW9-Readme-Generator#Usage)
-  * [License](https://github.com/sdratch/HW9-Readme-Generator#License)
-  * [Contributing](https://github.com/sdratch/HW9-Readme-Generator#Contributing)
-  * [Tests](https://github.com/sdratch/HW9-Readme-Generator#Tests)
-  * [Questions](https://github.com/sdratch/HW9-Readme-Generator#Questions)
+  * [Installation](https://github.com/sdratch/HW9-Readme#Installation)
+  * [Usage](https://github.com/sdratch/HW9-Readme#Usage)
+  * [License](https://github.com/sdratch/HW9-Readme#license)
+  * [Contributing](https://github.com/sdratch/HW9-Readme#Contributing)
+  * [Tests](https://github.com/sdratch/HW9-Readme#Tests)
+  * [Questions](https://github.com/sdratch/HW9-Readme#Questions)
 
 ## Installation
-  there are none
+  Here are the installation guides
+  npm install
 
 ## Usage
-  Do not use
+  Here are some common examples
+  dont use
 
-## Licence
-  mit
+## License
+  This project is licensed under the undefined License. - see the [License.md](https://github.com/sdratch/HW9-Readme/blob/master/LICENSE.md) file for details
 
 ## Contributing
-  No one made this
+  Thanks me for the contributions to the porgram
 
 ## Tests
-  This
+  
 
 ## Questions
   If you have any questions feel free to contact me by either:
-  * Email Address: [example.com](example.com)
+  * Email Address: [dratch.sam1@gmail.com](dratch.sam1@gmail.com)
   * Github Profile: [https://github.com/sdratch](https://github.com/sdratch)
