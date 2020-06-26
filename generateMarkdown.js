@@ -5,6 +5,7 @@ const fr = require("fs");
 function generateMarkdown(data) {
   addLicense(data.licences,data.title,data.username);
   return `# ${data.title}
+[![made-with-README](https://img.shields.io/badge/Made%20With-README%20Generator-blue)](https://www.github.com/sdratch/HW9-Readme-Generator)
 
 ## Description:
    ${data.description}
@@ -18,19 +19,16 @@ function generateMarkdown(data) {
   * [Questions](https://github.com/${data.username}/${data.title}#Questions)
 
 ## Installation
-  Here are the installation guides
   ${data.install}
 
 ## Usage
-  Here are some common examples
   ${data.usage}
 
 ## License
   This project is licensed under the ${data.license} License. - see the [License.md](https://github.com/${data.username}/${data.title}/blob/master/LICENSE.md) file for details
 
 ## Contributing
-  Thanks ${data.contribution} for the contributions to the porgram
-
+  ${data.contribution}
 ## Tests
   ${data.test}
 
