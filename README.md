@@ -19,9 +19,9 @@
   
 
 ## Examples
-  ![video of the code](./assets/hw9example.mp4)
-  ![Resulting Image 1](./assets/result1.png)
-  ![Resulting Image 2](./assets/result2.png)
+  ![video of the code](./Assets/hw9example.mp4)
+  ![Resulting Image 1](./Assets/result1.PNG)
+  ![Resulting Image 2](./Assets/result2.png)
 
 
 
