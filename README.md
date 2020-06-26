@@ -19,7 +19,7 @@
   example
 
 ## License
-  This project is licensed under the undefined License. - see the [License.md](https://github.com/sdratch/hw9-readme-generator/blob/master/LICENSE.md) file for details
+  This project is licensed under the apache-2.0 License. - see the [License.md](https://github.com/sdratch/hw9-readme-generator/blob/master/LICENSE.md) file for details
 
 ## Contributing
   none
