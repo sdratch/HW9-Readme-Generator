@@ -19,7 +19,7 @@
   
 
 ## Examples
-  ![video of the code](./Assets/hw9example.mp4)
+  [video of the code](https://youtu.be/gBdEnQTlbug)
   ![Resulting Image 1](./Assets/result1.PNG)
   ![Resulting Image 2](./Assets/result2.png)
 
